@@ -1,0 +1,18 @@
+#!/bin/bash
+
+
+
+function a_monster {
+	echo "monster is coming"
+}
+
+a_monster
+
+function   add {
+	echo "$((($1 + $2)))"
+}
+
+
+add  13 14
+
+add $1 $2
